@@ -1,0 +1,104 @@
+body {
+background-color:#f4f7fb;
+font-family:'Exo';
+font-size:16px;
+}
+
+
+strong  {
+	color:#00b6ff;
+}
+
+.headerBar {
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#00b6ff;
+	margin-bottom:5px;
+}
+
+.card {
+ 	background-color:#fff;	
+	border-radius:2%;
+	padding:2%;
+	text-align:center;
+	margin-top:10px;
+}
+
+.instructions {
+	text-align:center;
+	color:#fff;
+	font-size:32px;
+	padding-top:5%;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+
+.stats {
+ font-size:14px;
+}
+.appCont {
+	max-width:750px;
+}
+.card .stats {
+
+font-size:12px;
+}
+#mainTitle {
+	color:#fff;
+	font-size:24px;
+}
+
+
+.headerBar input {
+	padding:3px 8px 3px 15px;
+	border-radius:8px;
+	border:none;
+	float:right;
+}
+.headerBar input:focus {
+	width:100%;
+	border:none;
+	outline:none;
+}
+.spriteContainer {
+	height:16px;
+	width:16px;
+	display:inline-block;
+	overflow:hidden;
+}
+#commentSprite {
+	position:relative;
+}
+
+#upSprite {
+	position:relative;
+	bottom:16px;
+}
+
+#downSprite {
+        position:relative;
+        bottom:32px;
+}
+
+.thread {
+padding-top:10px;
+padding-bottom:10px;
+margin-bottom:10px;
+border-bottom:1px solid #dbdbec;
+}
+
+.threadimg {
+	height:90px; 
+	width:90px; 
+	border-radius:50%;
+}
+
+.loader {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	width:32px;
+	z-index:1000;
+}

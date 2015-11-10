@@ -1,0 +1,56 @@
+{
+  "name": "RedditViewer",
+  "version": "0.0.1",
+  "description": "Reddit Viewer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "cd src; webpack --config webpack.production.config --optimize-dedupe --progress --colors",
+    "bundle": "watchify -o public/js/bundle.js -v -d src/js/app.jsx"
+  },
+  "dependencies": {
+    "ejs": "2.3.3",
+    "compression": "1.6.0",
+    "express": "4.13.3",
+    "watchify": "^2.1.1",
+    "body-parser": "*",
+    "webpack": "*",
+    "babel":"5.8.29",
+	
+    "babel-core": "5.8.29",
+    "babel-loader": "5.3.2",
+    "node-libs-browser": "^0.5.2",
+    "object-assign": "^1.0.0",
+    "reflux": "*",
+    "browserify": "^6.2.0",
+    "envify": "^3.0.0",
+    "reactify": "^0.15.2",
+    "uglify-loader": "*",
+    "webpack-dev-server": "^1.9.0",
+    "material-ui": "^0.13.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-tap-event-plugin": "^0.2.1",
+    "react-addons-create-fragment": "^0.14.0",
+    "react-addons-pure-render-mixin": "^0.14.0",
+    "react-addons-transition-group": "^0.14.0",
+    "react-addons-update": "^0.14.0",
+    "react-modal": "*"
+  },
+  "browserify": {
+    "transform": [
+      "reactify",
+      "envify"
+    ]
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+  }
+}

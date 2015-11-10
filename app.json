@@ -1,0 +1,6 @@
+{
+  "name": "Reddit Viewer",
+  "description": "A simple application to retrieve and display Reddit posts",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
